@@ -15,6 +15,30 @@ public class javaStudy_220217 {
 		
 		System.out.println("name: "+name);
 		System.out.println("str: "+str);
+		
+		/*
+		 * 문자열 + any type -> 문자열 + 문자열 -> 문자열 
+		 * any type + 문자열 -> 문자열 + 문자열 -> 문자열
+		 * 
+		 * any Type 어떤 유형...
+		 */
+	
+		System.out.println("예를 들어 "+ 7+ "+'7'"+ "을 계산한다면?");
+		System.out.println(7+ "7");
+		
+		// 덧셈 연산자는 왼쪽에서 오른쪽의 방향으로 연산을 수행하기 때문에 결합 순서에 따라 결과가 달라진다는 것에 주의하자!
+		// 숫자를 문자열로 별환 할 때에는 아무것도 쓰여있지 않은 "" 더블쿼터를 더해주면 된다.
+		
+		System.out.println("name"+name);
+		System.out.println("str"+str);
+		System.out.println("7+' '= "+7+" ");
+		System.out.println("' '+7= "+" "+7);
+		System.out.println("7+''= "+7+"");
+		System.out.println("''+7= "+""+7);
+		System.out.println("''+''= "+""+"");
+		System.out.println("7+7+''= "+7+7+"");
+		System.out.println(7+7+""+" 39번줄... 앞에 글자가 있어서 String으로 인식했나?");
+		System.out.println("''+7+7= "+""+7+7);
 	}
 
 }

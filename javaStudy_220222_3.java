@@ -3,7 +3,7 @@ package jiwon_studyAlone;
 public class javaStudy_220222_3 {
 	
 	public static void main(String[] args) {
-		//0222 추가!
+		//0222 추가! 74-76p
 		
 		System.out.println("3-05 증감연산자 ++와 --");
 		// ㅋㅋㅋ 처음에 중감연산자도 이해가 잘 안됐었지... 지금은 그냥 쓰지만... 감회가 새롭다
@@ -48,6 +48,16 @@ public class javaStudy_220222_3 {
 		
 		j = ++i;
 		System.out.println("j=++i; 실행 후, i="+(i)+", j="+j);
+		
+		
+		System.out.println("-----------------------------");
+		System.out.println("예제 3-3");
+		
+		i=5; j=5;
+		System.out.println(i++);	//i=5 57줄이 실행 된 후 i를 찍으면 i는 6이 나온다.
+		System.out.println(++j);	//j=6 57줄 실행 전, 증가하기때문에 j는 6이 나온다.
+		
+		System.out.println("i="+i+", j="+j);
 		
 	}
 }
